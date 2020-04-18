@@ -1,0 +1,49 @@
+@charset "UTF=8";
+
+:root{
+  --main-color:#424242;
+  --accent-color:#00ccd6;
+  --dark-color:#000000;
+  --text-color:#ffd900;
+}
+
+body {
+  margin:0;
+
+}
+
+.headA {
+  background-color:var(--accent-color);
+  color:var(--text-color);
+  display:frex;
+  align-items: center;
+  justify-content: center;
+  height: 30vh;
+  min-height: auto;
+  background-size:cover;
+  text-align: center;
+}
+
+header .container h1 {
+  
+  
+}
+.conA {
+  display: flex;
+  margin:0;
+  background-color:var(--dark-color);
+  color:var(--text-color);
+}
+
+.conA .container {
+  display: inline-block;
+  background-color: var(--main-color);
+  padding: 5% 5%;
+  margin-left: 20%;
+  margin-right: 20%;
+  width: 50%;
+  
+}
+
+
+
